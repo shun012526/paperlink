@@ -1,10 +1,10 @@
 version: '3.7'
 services:
   web:
-    container_name: ctr-sakura-sample-web
+    container_name: ctr-paperlink
     build:
       context: .
-    image: img-sakura-sample-web
+    image: img-paperlink
     volumes:
       - .:/usr/src/app
     ports:
