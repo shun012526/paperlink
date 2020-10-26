@@ -1,26 +1,61 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">paperlink</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div id="heading">
+      <img src="image/heading.png" />
+    </div>
+    <div class="sns">
+      <ul>
+        <li class="twitter">
+          <a
+            href="http://twiter.com/share?url=https://paprlink.com/"
+            target="_blank"
+            ><img class="snsbtn" src="image/twitter_icon.png"
+          /></a>
+        </li>
+        <li class="facebook">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
+            target="_blank"
+            ><img class="snsbtn" src="image/facebook_icon.png"
+          /></a>
+        </li>
+        <li class="line line-it-button">
+          <a
+            href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpaperlink.jp%2F"
+            ><img class="snsbtn" src="image/line_icon.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div id="main">
+      <img src="image/main.png" />
+    </div>
+    <div class="sns">
+      <ul>
+        <li class="twitter">
+          <a
+            href="http://twiter.com/share?url=https://paprlink.com/"
+            target="_blank"
+            ><img class="snsbtn" src="image/twitter_icon.png"
+          /></a>
+        </li>
+        <li class="facebook">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
+            target="_blank"
+            ><img class="snsbtn" src="image/facebook_icon.png"
+          /></a>
+        </li>
+        <li class="line">
+          <a
+            href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpaperlink.jp%2F"
+            ><img class="snsbtn" src="image/line_icon.png"
+          /></a>
+        </li>
+      </ul>
+    </div>
+    <div id="footer">
+      <img src="image/footer.png" />
     </div>
   </div>
 </template>
@@ -30,34 +65,44 @@ export default {}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+/* 共通 */
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
+#heading img,
+#main img,
+#footer img {
+  width: 100%;
 }
 
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+.sns li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1vw;
 }
 
-.links {
-  padding-top: 15px;
+@media (min-width: 960px) {
+  body {
+    margin: 0 25vw;
+  }
+  .sns ul {
+    margin-left: 5vw;
+    padding: 0;
+  }
+  .snsbtn {
+    width: 10vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .sns ul {
+    margin-left: 7vw;
+    padding: 0;
+  }
+  .snsbtn {
+    width: 25vw;
+  }
 }
 </style>
