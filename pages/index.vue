@@ -7,21 +7,21 @@
       <ul>
         <li class="twitter">
           <a
-            href="http://twiter.com/share?url=https://paprlink.com/"
+            href="http://twiter.com/share?url=http://paprlink.jp/"
             target="_blank"
             ><img class="snsbtn" src="image/twitter_icon.png"
           /></a>
         </li>
         <li class="facebook">
           <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
+            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
             target="_blank"
             ><img class="snsbtn" src="image/facebook_icon.png"
           /></a>
         </li>
         <li class="line line-it-button">
           <a
-            href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpaperlink.jp%2F"
+            href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Fpaperlink.jp%2F"
             ><img class="snsbtn" src="image/line_icon.png"
           /></a>
         </li>
@@ -34,21 +34,21 @@
       <ul>
         <li class="twitter">
           <a
-            href="http://twiter.com/share?url=https://paprlink.com/"
+            href="http://twiter.com/share?url=http://paprlink.jp/"
             target="_blank"
             ><img class="snsbtn" src="image/twitter_icon.png"
           /></a>
         </li>
         <li class="facebook">
           <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
+            href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpaperlink.jp%2F&amp;src=sdkpreparse"
             target="_blank"
             ><img class="snsbtn" src="image/facebook_icon.png"
           /></a>
         </li>
         <li class="line">
           <a
-            href="https://social-plugins.line.me/lineit/share?url=https%3A%2F%2Fpaperlink.jp%2F"
+            href="https://social-plugins.line.me/lineit/share?url=http%3A%2F%2Fpaperlink.jp%2F"
             ><img class="snsbtn" src="image/line_icon.png"
           /></a>
         </li>
